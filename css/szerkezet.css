@@ -12,21 +12,3 @@ menu {
     background-color: orange;
     /* Nem volt konkrétan megadva */ 
 }
-
-
-@media screen and (max-width:700px) {
-
-    main {
-        width: 100%;
-        display:grid;
-        grid-template-areas: "h"
-                             "n"
-                             "as"
-                             "a"
-                             "f";
-    }
-
-    nav>ul {
-        grid-template-columns: 1fr;
-    }
-}

@@ -1,4 +1,13 @@
-body img {
+body{
+    text-align: justify;
+}
+h1{
+    font-family: Arial, sans-serif;
+}
+h3{
+    font-size: 15px;
+}
+img {
     width: 100%;
     box-sizing: border-box;
     border: 1px solid black;

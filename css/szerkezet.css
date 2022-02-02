@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 aside {
     width: 200px;
 }
@@ -13,4 +14,21 @@ menu {
     background-color: orange;
     /* Nem volt konkrétan megadva */ 
 
+=======
+@media screen and (max-width:700px){
+
+    main {
+        width: 100%;
+        display:grid;
+        grid-template-areas: "h"
+                             "n"
+                             "as"
+                             "a"
+                             "f";
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+    }
+>>>>>>> 2ae9a41dd5e9cc4f2d7cde45447ed43b288ccdb6
 }

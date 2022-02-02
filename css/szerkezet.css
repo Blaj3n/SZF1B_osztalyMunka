@@ -1,0 +1,17 @@
+
+@media screen and (max-width:700px){
+
+    main {
+        width: 100%;
+        display:grid;
+        grid-template-areas: "h"
+                             "n"
+                             "as"
+                             "a"
+                             "f";
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+    }
+}

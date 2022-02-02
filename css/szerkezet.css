@@ -22,30 +22,3 @@ aside {
 footer {
     grid-area: f;
 }
-li {
-    padding: 5px;
-    /* Nem volt konkrét érték megadva */ 
-}
-
-menu {
-    background-color: orange;
-    /* Nem volt konkrétan megadva */ 
-}
-
-
-@media screen and (max-width:700px) {
-
-    main {
-        width: 100%;
-        display:grid;
-        grid-template-areas: "h"
-                             "n"
-                             "as"
-                             "ar"
-                             "f";
-    }
-
-    nav {
-        grid-template-columns: 1fr;
-    }
-}

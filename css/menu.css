@@ -1,10 +1,10 @@
 
 
-li:hover {
+nav>ul>li:hover {
     background-color: red;
 }
 
-li {
+nav>ul>li {
     padding: 5px;
     /* Nem volt konkrét érték megadva */ 
 }

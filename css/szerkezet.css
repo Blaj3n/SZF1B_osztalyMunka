@@ -26,7 +26,7 @@ menu {
                              "f";
     }
 
-    nav {
+    nav>ul {
         grid-template-columns: 1fr;
     }
 }

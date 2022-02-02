@@ -10,8 +10,17 @@ h3{
     font-size: 15px;
 }
 
-img {
+
+/* index.html */
+.kepek-linkekkel img {
     width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.profilkep img {
+    width: 50%;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;

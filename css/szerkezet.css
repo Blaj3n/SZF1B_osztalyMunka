@@ -1,0 +1,16 @@
+
+aside {
+    width: 200px;
+}
+li:hover {
+    background-color: red;
+}
+li {
+    padding: 5px;
+    /* Nem volt konkrét érték megadva */ 
+}
+menu {
+    background-color: orange;
+    /* Nem volt konkrétan megadva */ 
+
+}

@@ -22,10 +22,6 @@ aside {
 footer {
     grid-area: f;
 }
-li:hover {
-    background-color: red;
-}
-
 li {
     padding: 5px;
     /* Nem volt konkrét érték megadva */ 

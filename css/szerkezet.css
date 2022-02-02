@@ -1,12 +1,10 @@
 main {
-    background-color: skyblue;
-    display: grid;
     max-width: 1000px;
-    grid-template-areas:    "h h h"
-                            "n n n"
-                            "as as ar"
-                            "f f f "
-                             ;
+    display: grid;
+    grid-template-areas: "h h h"
+                         "n n n"
+                         "as as ar"
+                         "f f f";
 }
 header {
     grid-area: h;
@@ -18,9 +16,40 @@ article {
     grid-area: ar;
 }
 aside {
-    width: 200px;
     grid-area: as;
+    width: 200px;
 }
 footer {
     grid-area: f;
+}
+li:hover {
+    background-color: red;
+}
+
+li {
+    padding: 5px;
+    /* Nem volt konkrét érték megadva */ 
+}
+
+menu {
+    background-color: orange;
+    /* Nem volt konkrétan megadva */ 
+}
+
+
+@media screen and (max-width:700px) {
+
+    main {
+        width: 100%;
+        display:grid;
+        grid-template-areas: "h"
+                             "n"
+                             "as"
+                             "ar"
+                             "f";
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+    }
 }
